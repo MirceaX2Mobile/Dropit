@@ -15,6 +15,8 @@
 		A42F15C21FBD89B60003E5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F15C11FBD89B60003E5E3 /* main.m */; };
 		A42F15CC1FBD89B60003E5E3 /* DropiyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F15CB1FBD89B60003E5E3 /* DropiyTests.m */; };
 		A42F15D71FBD89B60003E5E3 /* DropiyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F15D61FBD89B60003E5E3 /* DropiyUITests.m */; };
+		A42F15E61FBD95400003E5E3 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F15E51FBD95400003E5E3 /* DropitBehavior.m */; };
+		A44A3DE41FC5B87D0062A52B /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = A44A3DE31FC5B87D0062A52B /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A42F15AF1FBD89B60003E5E3 /* Dropiy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropiy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F15AF1FBD89B60003E5E3 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F15B21FBD89B60003E5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A42F15B31FBD89B60003E5E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A42F15B51FBD89B60003E5E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,12 +47,16 @@
 		A42F15BE1FBD89B60003E5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42F15C01FBD89B60003E5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42F15C11FBD89B60003E5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A42F15C71FBD89B60003E5E3 /* DropiyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropiyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F15C71FBD89B60003E5E3 /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F15CB1FBD89B60003E5E3 /* DropiyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropiyTests.m; sourceTree = "<group>"; };
 		A42F15CD1FBD89B60003E5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A42F15D21FBD89B60003E5E3 /* DropiyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropiyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F15D21FBD89B60003E5E3 /* DropitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42F15D61FBD89B60003E5E3 /* DropiyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropiyUITests.m; sourceTree = "<group>"; };
 		A42F15D81FBD89B60003E5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42F15E41FBD95400003E5E3 /* DropitBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		A42F15E51FBD95400003E5E3 /* DropitBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		A44A3DE21FC5B87D0062A52B /* BezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		A44A3DE31FC5B87D0062A52B /* BezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +87,7 @@
 		A42F15A61FBD89B60003E5E3 = {
 			isa = PBXGroup;
 			children = (
-				A42F15B11FBD89B60003E5E3 /* Dropiy */,
+				A42F15B11FBD89B60003E5E3 /* Dropit */,
 				A42F15CA1FBD89B60003E5E3 /* DropiyTests */,
 				A42F15D51FBD89B60003E5E3 /* DropiyUITests */,
 				A42F15B01FBD89B60003E5E3 /* Products */,
@@ -91,27 +97,31 @@
 		A42F15B01FBD89B60003E5E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A42F15AF1FBD89B60003E5E3 /* Dropiy.app */,
-				A42F15C71FBD89B60003E5E3 /* DropiyTests.xctest */,
-				A42F15D21FBD89B60003E5E3 /* DropiyUITests.xctest */,
+				A42F15AF1FBD89B60003E5E3 /* Dropit.app */,
+				A42F15C71FBD89B60003E5E3 /* DropitTests.xctest */,
+				A42F15D21FBD89B60003E5E3 /* DropitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A42F15B11FBD89B60003E5E3 /* Dropiy */ = {
+		A42F15B11FBD89B60003E5E3 /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
 				A42F15B21FBD89B60003E5E3 /* AppDelegate.h */,
 				A42F15B31FBD89B60003E5E3 /* AppDelegate.m */,
 				A42F15B51FBD89B60003E5E3 /* ViewController.h */,
 				A42F15B61FBD89B60003E5E3 /* ViewController.m */,
+				A42F15E41FBD95400003E5E3 /* DropitBehavior.h */,
+				A42F15E51FBD95400003E5E3 /* DropitBehavior.m */,
 				A42F15B81FBD89B60003E5E3 /* Main.storyboard */,
 				A42F15BB1FBD89B60003E5E3 /* Assets.xcassets */,
 				A42F15BD1FBD89B60003E5E3 /* LaunchScreen.storyboard */,
 				A42F15C01FBD89B60003E5E3 /* Info.plist */,
 				A42F15C11FBD89B60003E5E3 /* main.m */,
+				A44A3DE21FC5B87D0062A52B /* BezierPathView.h */,
+				A44A3DE31FC5B87D0062A52B /* BezierPathView.m */,
 			);
-			path = Dropiy;
+			path = Dropit;
 			sourceTree = "<group>";
 		};
 		A42F15CA1FBD89B60003E5E3 /* DropiyTests */ = {
@@ -135,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A42F15AE1FBD89B60003E5E3 /* Dropiy */ = {
+		A42F15AE1FBD89B60003E5E3 /* Dropit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A42F15DB1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "Dropiy" */;
+			buildConfigurationList = A42F15DB1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "Dropit" */;
 			buildPhases = (
 				A42F15AB1FBD89B60003E5E3 /* Sources */,
 				A42F15AC1FBD89B60003E5E3 /* Frameworks */,
@@ -147,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = Dropiy;
+			name = Dropit;
 			productName = Dropiy;
-			productReference = A42F15AF1FBD89B60003E5E3 /* Dropiy.app */;
+			productReference = A42F15AF1FBD89B60003E5E3 /* Dropit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A42F15C61FBD89B60003E5E3 /* DropiyTests */ = {
+		A42F15C61FBD89B60003E5E3 /* DropitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A42F15DE1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropiyTests" */;
+			buildConfigurationList = A42F15DE1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropitTests" */;
 			buildPhases = (
 				A42F15C31FBD89B60003E5E3 /* Sources */,
 				A42F15C41FBD89B60003E5E3 /* Frameworks */,
@@ -165,14 +175,14 @@
 			dependencies = (
 				A42F15C91FBD89B60003E5E3 /* PBXTargetDependency */,
 			);
-			name = DropiyTests;
+			name = DropitTests;
 			productName = DropiyTests;
-			productReference = A42F15C71FBD89B60003E5E3 /* DropiyTests.xctest */;
+			productReference = A42F15C71FBD89B60003E5E3 /* DropitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A42F15D11FBD89B60003E5E3 /* DropiyUITests */ = {
+		A42F15D11FBD89B60003E5E3 /* DropitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A42F15E11FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropiyUITests" */;
+			buildConfigurationList = A42F15E11FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropitUITests" */;
 			buildPhases = (
 				A42F15CE1FBD89B60003E5E3 /* Sources */,
 				A42F15CF1FBD89B60003E5E3 /* Frameworks */,
@@ -183,9 +193,9 @@
 			dependencies = (
 				A42F15D41FBD89B60003E5E3 /* PBXTargetDependency */,
 			);
-			name = DropiyUITests;
+			name = DropitUITests;
 			productName = DropiyUITests;
-			productReference = A42F15D21FBD89B60003E5E3 /* DropiyUITests.xctest */;
+			productReference = A42F15D21FBD89B60003E5E3 /* DropitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A42F15AA1FBD89B60003E5E3 /* Build configuration list for PBXProject "Dropiy" */;
+			buildConfigurationList = A42F15AA1FBD89B60003E5E3 /* Build configuration list for PBXProject "Dropit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A42F15AE1FBD89B60003E5E3 /* Dropiy */,
-				A42F15C61FBD89B60003E5E3 /* DropiyTests */,
-				A42F15D11FBD89B60003E5E3 /* DropiyUITests */,
+				A42F15AE1FBD89B60003E5E3 /* Dropit */,
+				A42F15C61FBD89B60003E5E3 /* DropitTests */,
+				A42F15D11FBD89B60003E5E3 /* DropitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42F15B71FBD89B60003E5E3 /* ViewController.m in Sources */,
+				A42F15E61FBD95400003E5E3 /* DropitBehavior.m in Sources */,
+				A44A3DE41FC5B87D0062A52B /* BezierPathView.m in Sources */,
 				A42F15C21FBD89B60003E5E3 /* main.m in Sources */,
 				A42F15B41FBD89B60003E5E3 /* AppDelegate.m in Sources */,
 			);
@@ -292,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		A42F15C91FBD89B60003E5E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A42F15AE1FBD89B60003E5E3 /* Dropiy */;
+			target = A42F15AE1FBD89B60003E5E3 /* Dropit */;
 			targetProxy = A42F15C81FBD89B60003E5E3 /* PBXContainerItemProxy */;
 		};
 		A42F15D41FBD89B60003E5E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A42F15AE1FBD89B60003E5E3 /* Dropiy */;
+			target = A42F15AE1FBD89B60003E5E3 /* Dropit */;
 			targetProxy = A42F15D31FBD89B60003E5E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDZA42UB8C;
-				INFOPLIST_FILE = Dropiy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dropit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Dropiy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDZA42UB8C;
-				INFOPLIST_FILE = Dropiy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dropit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.Dropiy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.DropiyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropiy.app/Dropiy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropit.app/Dropit";
 			};
 			name = Debug;
 		};
@@ -480,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = X2mobile.DropiyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropiy.app/Dropiy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropit.app/Dropit";
 			};
 			name = Release;
 		};
@@ -515,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A42F15AA1FBD89B60003E5E3 /* Build configuration list for PBXProject "Dropiy" */ = {
+		A42F15AA1FBD89B60003E5E3 /* Build configuration list for PBXProject "Dropit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A42F15D91FBD89B60003E5E3 /* Debug */,
@@ -524,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A42F15DB1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "Dropiy" */ = {
+		A42F15DB1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "Dropit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A42F15DC1FBD89B60003E5E3 /* Debug */,
@@ -533,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A42F15DE1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropiyTests" */ = {
+		A42F15DE1FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A42F15DF1FBD89B60003E5E3 /* Debug */,
@@ -542,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A42F15E11FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropiyUITests" */ = {
+		A42F15E11FBD89B60003E5E3 /* Build configuration list for PBXNativeTarget "DropitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A42F15E21FBD89B60003E5E3 /* Debug */,
